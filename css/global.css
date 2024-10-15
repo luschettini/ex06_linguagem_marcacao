@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ header h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    gap: 1.5rem;
+}
+
+.block-1{
+    background-color: #f9a049;
+    display: flex;
+    width: 50%;
+    height: 15.5rem;
+}
+
+.block-2{
+    background-color: #f9a049;
+    display: flex;
+    width: 50%;
+    height: 15.5rem;
+}
+
+.meio-center{
+    display: flex;
+    padding: 1%;
+    gap: 1%;
+}
+
+.center{
+    background-color: #dbeb3f;
+    width: 100%;
+    height: 35rem;
+}
+
+.meio-section{
+    display: flex;
+    padding: 1%;
+    gap: 1%;
+}
+
+.block1{
+    background-color: #508acc;
+    height: 20rem;
+    width: 50%;
+}
+
+.block2{
+    background-color: #508acc;
+    height: 20rem;
+    width: 50%;
+}
+
+.block3{
+    background-color:#508acc;
+    height: 20rem;
+    width: 50%;
+}
+
+.footer {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.section-footer{
+    width: 100%;
+    display: flex;
+    padding: 0.25%;
+    gap: 1%;
+}
+
+.block-footer1 {     
+    background-color: #e2e2e2;
+    width: 50%;
+    height: 20rem;
+}
+
+.block-footer2 {
+    background-color: #e2e2e2;
+    width: 50%;
+    height: 20rem;
+}
+
+.section-footer-02 {
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    padding: 0.25%;
+}
+
+.block-footer3 {
+    background-color: #e2e2e2;
+    width: 50%;
+    height: 20rem;
+}
+
+.block-footer4 {
+    background-color: #e2e2e2;
+    width: 50%;
+    height: 20rem;
+}
+
+@media (max-width: 768px) {
+    .section-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1%;
+        gap: 0.5rem;
+    }
+
+    .block-1 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .block-2 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .meio-center {
+        display: flex;
+        gap: 1%;
+        padding: 1%;
+    }
+
+    .center {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .meio-section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1%;
+    }
+
+    .block1{
+        width: 100%;
+        height: 10rem;
+    }
+
+    .block2{
+        width: 100%;
+        height: 10rem;
+    }
+    .block3{
+        width: 100%;
+        height: 10rem;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        padding: 1%;
+    }
+
+    .block-footer1 {
+        width: 50%;
+        height: 8rem;
+    }
+
+    .block-footer2 {
+        width: 50%;
+        height: 8rem;
+    }
+    
+    .section-footer-02 {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        padding: 1%;
+    }
+
+    .block-footer3 {
+        width: 50%;
+        height: 8rem;
+    }
+
+    .block-footer4 {
+
+        width: 50%;
+        height: 8rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .section-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1%;
+        gap: 0.5rem;
+    }
+    .block-1 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .block-2 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .meio-center {
+        display: flex;
+        gap: 1%;
+        padding: 1%;
+        margin-top: 0.5rem;
+    }  
+
+    .center{
+        width: 100%;
+        height: 10rem;
+    }
+
+    .meio-section{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1%;
+        margin-top: 0.5rem;
+    }
+
+    .block1{
+        width: 100%;
+        height: 12rem;
+    }
+
+    .block2{
+        width: 100%;
+        height: 12rem;
+    }
+
+    .block3{
+        width: 100%;
+        height: 12rem;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        gap: 0;
+    }
+    
+    .section-footer{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        padding: 0;
+    }
+
+    .block-footer1{
+        width: 50%;
+        height: 4rem;
+    }
+
+    .block-footer2{
+        width: 50%;
+        height: 4rem;
+    }
+    
+    .section-footer-02 {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        padding: 0;
+    }
+
+    .block-footer3 {
+        width: 50%;
+        height: 4rem;
+    }
+
+    .block-footer4{
+        width: 50%;
+        height: 4rem;
+    }
+}
